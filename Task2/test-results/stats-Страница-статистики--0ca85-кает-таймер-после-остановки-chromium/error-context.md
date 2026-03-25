@@ -1,0 +1,86 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: 📋
+        - heading "Модерация Авито" [level=1] [ref=e7]
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "📝 Объявления" [ref=e10] [cursor=pointer]:
+            - /url: /list
+            - generic [ref=e11]: 📝
+            - generic [ref=e12]: Объявления
+        - listitem [ref=e13]:
+          - link "📊 Статистика" [ref=e14] [cursor=pointer]:
+            - /url: /stats
+            - generic [ref=e15]: 📊
+            - generic [ref=e16]: Статистика
+      - button "Switch to dark theme" [ref=e17] [cursor=pointer]:
+        - generic [ref=e18]: 🌙
+        - generic [ref=e19]: Темная
+  - generic [ref=e20]:
+    - banner [ref=e21]:
+      - generic [ref=e22]:
+        - heading "📊 Статистика модератора" [level=1] [ref=e23]
+        - paragraph [ref=e24]: Обзор эффективности работы и аналитика
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: "Период:"
+          - combobox "Период:" [ref=e28] [cursor=pointer]:
+            - option "Сегодня"
+            - option "Последние 7 дней" [selected]
+            - option "Последние 30 дней"
+        - generic [ref=e29]:
+          - link "Скачать CSV" [ref=e30] [cursor=pointer]:
+            - /url: blob:https://cerulean-praline-8e5aa6.netlify.app/fb98c100-6b86-495d-8b31-d12349952ab0
+            - generic [ref=e31]: 📥
+            - generic [ref=e32]: Экспорт CSV
+          - button "Скачать PDF" [ref=e33] [cursor=pointer]:
+            - generic [ref=e34]: 📄
+            - generic [ref=e35]: Экспорт PDF
+          - button "Печать отчёта" [ref=e36] [cursor=pointer]:
+            - generic [ref=e37]: 🖨️
+            - generic [ref=e38]: Печать
+    - generic [ref=e39]:
+      - button "Обновить сейчас" [ref=e40] [cursor=pointer]:
+        - generic [ref=e41]: 🔄
+        - generic [ref=e42]: Обновить
+      - generic [ref=e43]:
+        - button "Включить автообновление" [active] [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: ▶️
+        - generic [ref=e46]: Автообновление выключено
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - generic [ref=e50]: 📊
+          - generic [ref=e51]:
+            - heading "Всего проверено" [level=3] [ref=e52]
+            - paragraph [ref=e53]: "21"
+            - paragraph [ref=e54]: объявлений
+        - generic [ref=e55]:
+          - generic [ref=e56]: ✅
+          - generic [ref=e57]:
+            - heading "Одобрено" [level=3] [ref=e58]
+            - paragraph [ref=e59]: 57%
+            - paragraph [ref=e60]: от общего числа
+        - generic [ref=e61]:
+          - generic [ref=e62]: ❌
+          - generic [ref=e63]:
+            - heading "Отклонено" [level=3] [ref=e64]
+            - paragraph [ref=e65]: 29%
+            - paragraph [ref=e66]: от общего числа
+        - generic [ref=e67]:
+          - generic [ref=e68]: ⏱️
+          - generic [ref=e69]:
+            - heading "Среднее время" [level=3] [ref=e70]
+            - paragraph [ref=e71]: "5769"
+            - paragraph [ref=e72]: минут на проверку
+      - generic [ref=e73]:
+        - img [ref=e75]
+        - generic [ref=e76]:
+          - img [ref=e78]
+          - img [ref=e80]
+```

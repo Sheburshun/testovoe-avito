@@ -1,0 +1,98 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: 📋
+        - heading "Модерация Авито" [level=1] [ref=e7]
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "📝 Объявления" [ref=e10] [cursor=pointer]:
+            - /url: /list
+            - generic [ref=e11]: 📝
+            - generic [ref=e12]: Объявления
+        - listitem [ref=e13]:
+          - link "📊 Статистика" [ref=e14] [cursor=pointer]:
+            - /url: /stats
+            - generic [ref=e15]: 📊
+            - generic [ref=e16]: Статистика
+      - button "Switch to dark theme" [ref=e17] [cursor=pointer]:
+        - generic [ref=e18]: 🌙
+        - generic [ref=e19]: Темная
+  - generic [ref=e20]:
+    - banner [ref=e21]:
+      - heading "Модерация объявлений" [level=1] [ref=e22]
+      - paragraph [ref=e23]: Управление и модерация объявлений на платформе
+    - generic [ref=e24]:
+      - generic [ref=e26]:
+        - generic [ref=e27]: Поиск по названию
+        - textbox "Введите название... (нажмите / для быстрого поиска)" [ref=e28]
+      - generic [ref=e29]:
+        - generic [ref=e30] [cursor=pointer]:
+          - checkbox "🔥 Только срочные"
+          - generic [ref=e32]: 🔥 Только срочные
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e35]: Сортировать по
+            - combobox [ref=e36] [cursor=pointer]:
+              - option "Дате создания" [selected]
+              - option "Цене"
+              - option "Приоритету"
+          - generic [ref=e37]:
+            - generic [ref=e38]: Порядок
+            - combobox [ref=e39] [cursor=pointer]:
+              - option "По убыванию" [selected]
+              - option "По возрастанию"
+    - generic [ref=e40]:
+      - complementary [ref=e41]:
+        - generic [ref=e42]:
+          - heading "Фильтры" [level=2] [ref=e43]
+          - button "✕ Сбросить" [ref=e44] [cursor=pointer]
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: Статус
+            - generic [ref=e48]:
+              - generic [ref=e49] [cursor=pointer]:
+                - checkbox "На модерации" [ref=e50]
+                - generic [ref=e51]: На модерации
+              - generic [ref=e52] [cursor=pointer]:
+                - checkbox "Одобрено" [ref=e53]
+                - generic [ref=e54]: Одобрено
+              - generic [ref=e55] [cursor=pointer]:
+                - checkbox "Отклонено" [ref=e56]
+                - generic [ref=e57]: Отклонено
+              - generic [ref=e58] [cursor=pointer]:
+                - checkbox "Черновик" [ref=e59]
+                - generic [ref=e60]: Черновик
+          - generic [ref=e61]:
+            - generic [ref=e62]: Категория
+            - combobox [ref=e63] [cursor=pointer]:
+              - option "Все категории" [selected]
+              - option "Электроника"
+              - option "Недвижимость"
+              - option "Транспорт"
+              - option "Работа"
+              - option "Услуги"
+              - option "Животные"
+              - option "Мода"
+              - option "Детское"
+          - generic [ref=e64]:
+            - generic [ref=e65]: Приоритет
+            - combobox [ref=e66] [cursor=pointer]:
+              - option "Все" [selected]
+              - option "Обычный"
+              - option "Срочный"
+          - generic [ref=e67]:
+            - generic [ref=e68]: Диапазон цен (₽)
+            - generic [ref=e69]:
+              - spinbutton [ref=e70]: "10000"
+              - generic [ref=e71]: —
+              - spinbutton [active] [ref=e72]: "1000"
+      - main [ref=e73]:
+        - generic [ref=e74]:
+          - paragraph [ref=e75]: 📭 Объявления не найдены
+          - paragraph [ref=e76]: Попробуйте изменить параметры фильтрации
+          - button "Сбросить фильтры" [ref=e77] [cursor=pointer]
+```

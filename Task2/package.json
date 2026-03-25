@@ -1,0 +1,29 @@
+{
+  "name": "testovoe-avito",
+  "version": "1.0.0",
+  "description": "Репозиторий Амосовой Анжелы с тестовыми заданиями 1 и 2.2 для стажировки от Avito по направлению QA Engineer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sheburshun/testovoe-avito.git"
+  },
+  "keywords": [],
+  "author": "Anzhela Amosova",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sheburshun/testovoe-avito/issues"
+  },
+  "homepage": "https://github.com/Sheburshun/testovoe-avito#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0",
+    "typescript": "^6.0.2"
+  }
+}
